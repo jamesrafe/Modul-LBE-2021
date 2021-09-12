@@ -88,6 +88,42 @@ Anda dapat memvisualisasikan data dengan mudah melalui beberapa widget **Visuali
 
 ### Load Data Sendiri
 
+Nah, kita kan sudah memakai dataset dari Orange, bagaimana kalau kita ingin memakai dataset kita sendiri? Kita sudah mengetahui format file yang diterima oleh Orange, mari kita buat baru!
+
+1. Pertama, buatlah sebuah spreadsheet dengan data yang diinginkan.
+
+![image](https://user-images.githubusercontent.com/68369091/132974605-a05e8bdb-0d48-4286-b2b3-5f46a036b812.png)
+
+2. Lalu, masukkan widget **File** dan **Data Table** seperti biasa, dan hubungkanlah.
+
+![image](https://user-images.githubusercontent.com/68369091/132974635-7b65fb41-ddd8-42c8-ba27-0b92847e2ad3.png)
+
+3. Klik widget **File** dua kali, dan masukkan link Google Sheets kalian ke kolom URL (jika kalian menggunakan Google Sheets) atau buka file dari komputer jika membuatnya di komputer kalian dengan meng-klik gambar folder.
+
+![image](https://user-images.githubusercontent.com/68369091/132976215-3692914d-afa1-4a09-8de5-4b3098d84588.png)
+
+Di sini, kita bisa lihat sekilas mengenai data kita. Bisa terlihat bahwa ada 5 baris data, 7 fitur/kolom tanpa nilai kosong, 1 atribut meta dan data tidak memiliki target kelas. Kolom type menyatakan tipe data apa, sedangkan role menyatakan data kolom tersebut digunakan sebagai apa didalam dataset.
+
+| Role | Informasi |
+| --- | --- |
+| c: class attribute | Atribut label kelas |
+| m: meta attribute | Atribut meta data (indeks) |
+| i: ignore | Atribut kolom yang diabaikan |
+| w: instance weights | Atribut kolom bobot |
+
+| Tipe | Informasi |
+| --- | --- |
+| C (Continuous) | tipe data kategorical dimana data tidak dapat diurutkan (tidak bertingkat) |
+| D (Discrete) | tipe data numerik (kontinyu atau diskrit) dimana data dapat diurutkan (bertingkat) |
+| T (Time) | tipe data waktu |
+| S (String) | tipe data berupa teks |
+
+
+4. Bukalah widget **Data Table** dan keluarlah isi dataset kalian! Sekarang kalian bisa menggunakannya seperti biasa.
+
+![image](https://user-images.githubusercontent.com/68369091/132976449-2a84e0a8-12b2-4954-b331-a4a94a740c00.png)
+
 
 
 ## Referensi
+- https://orange3.readthedocs.io/projects/orange-visual-programming/en/latest/loading-your-data/index.html
