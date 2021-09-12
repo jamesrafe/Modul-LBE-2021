@@ -127,3 +127,6 @@ Di sini, kita bisa lihat sekilas mengenai data kita. Bisa terlihat bahwa ada 5 b
 
 ## Referensi
 - https://orange3.readthedocs.io/projects/orange-visual-programming/en/latest/loading-your-data/index.html
+- https://towardsdatascience.com/data-science-made-easy-interactive-data-visualization-using-orange-de8d5f6b7f2b
+- https://github.com/ranggakd/Orange_Tutorial
+- https://docs.biolab.si/orange/2/data/rst/index.html
